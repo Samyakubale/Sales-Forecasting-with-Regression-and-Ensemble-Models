@@ -5,6 +5,7 @@ Problem Statement
 Accurate sales forecasting helps retailers optimize inventory management, improve supply chain efficiency, and maximize revenue.
 This project aims to predict sales using multiple regression models and identify the best-performing algorithm.
 
+
 #Dataset
 Dataset: BigMart Sales Dataset
 Target Variable: Item_Outlet_Sales
@@ -17,6 +18,7 @@ Outlet Location Type
 Outlet Type
 Item Fat Content
 
+
 #Technologies & Tools Used
 Python
 Pandas, NumPy
@@ -27,11 +29,13 @@ XGBoost
 LightGBM
 Jupyter Notebook
 
+
 #Exploratory Data Analysis (EDA)
 Handled missing values using mean and mode
 Performed feature engineering
 Analyzed distributions and correlations
 Applied log transformation to handle skewness
+
 
 #Data Preprocessing
 Missing value treatment
@@ -39,6 +43,7 @@ Label Encoding & One-Hot Encoding
 Feature scaling
 Train-Test Split
 Cross-validation
+
 
 #Machine Learning Models Implemented
 Linear Regression
@@ -49,13 +54,13 @@ Extra Trees Regressor
 XGBoost Regressor
 LightGBM Regressor
 
+
 #Model Evaluation Metrics
 R² Score
 Mean Squared Error (MSE)
 Cross Validation Score
 
-🏆 Best Model Performance
 
+#Best Model Performance
 Random Forest and LightGBM delivered the best performance
-
 High R² score with low error rate
